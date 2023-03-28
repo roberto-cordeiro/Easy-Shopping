@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap'); /* font import */
+
+/* Pattern config */
 *{
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -11,6 +13,7 @@ body{
     width: 100vw;
     height: 100vh;
 }
+/* Content area config */
 main{
     width: 60%;
     display: inline-block;
@@ -51,6 +54,7 @@ main{
 .container-main button:hover{
     background: #686edb;
 }
+/* Header area config */
 header{
     display: inline-block;
 }
@@ -138,7 +142,7 @@ header{
         height: 70%;
     }
 }
-/*      Dispositivos extra-small 281px - 320px      */
+/*       extra-small 281px - 320px      */
 @media screen and (min-width:281px) and (max-width:320px){
     main{
         width: 100%;
@@ -188,7 +192,7 @@ header{
     }
 }
 
-/*    Especifico iPhone 4 - width 320px - height 480px   */
+/*    Specific for iPhone 4 - width 320px - height 480px   */
 @media screen and (width:320px) and (height:480px) { 
     main{
         width: 100%;
@@ -238,6 +242,7 @@ header{
         height: 83%;
     }
 }
+/*     width 321px - width 360px   */
 @media screen and (min-width:321px) and (max-width:360px) {
     main{
         width: 100%;
@@ -287,6 +292,7 @@ header{
         height: 83%;
     }
 }
+/*     width 361px - width 375px   */
 @media screen and (min-width:361px) and (max-width:375px) {
     main{
         width: 100%;
@@ -336,6 +342,7 @@ header{
         height: 83%;
     }
 }
+/*     width 376px - width 393px   */
 @media screen and (min-width:376px) and (max-width:393px) {
     main{
         width: 100%;
@@ -386,6 +393,7 @@ header{
         height: 77%;
     }
 }
+/*     width 394px - width 414px   */
 @media screen and (min-width:394px) and (max-width:414px) {
     main{
         width: 100%;
