@@ -1,4 +1,5 @@
 <h1>Easy Shopping Via Mobile</h1>
+<p>In this project, I built an example of technology website , this way evolving a lot my skills with CSS and HTML</p>
 <br>
 <h2>I've  learn this project on <a href="https://rodolfomori.com.br/devclub">Dev-Club</a></h2>
 <h2>Used technologies</h2>
